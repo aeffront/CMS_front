@@ -1,0 +1,19 @@
+{
+  "name": "cms",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "PORT=3001 vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "firebase": "^11.0.1",
+    "firebase-admin": "^13.0.0",
+    "lorem-ipsum": "^2.0.8"
+  }
+}
